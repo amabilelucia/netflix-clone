@@ -9,7 +9,7 @@
 .featured--horizontal {
     width: inherit;
     height: inherit;
-    background: linear-gradient(to top, #111 30%, transparent 70%);
+    background: linear-gradient(to right, #111 30%, transparent 70%);
 }
 .featured--name {
     font-size: 60px;
