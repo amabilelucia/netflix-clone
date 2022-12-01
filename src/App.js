@@ -59,6 +59,14 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.itens} />
         ))}
       </section>
+      
+      <footer>
+        Feito por Amábile 
+        <br/>
+        Direitos de imagem para a netflix
+        <br/> 
+        Dados pegos do site Themoviedb.org
+      </footer>
     </div>
   );
 };

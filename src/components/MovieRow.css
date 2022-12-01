@@ -9,7 +9,7 @@
     padding-left: 30px;
 }
 .movieRow--list {
-    width: 99999999px;
+    transition: all ease 0.5s;
 }
 .movieRow--item {
     display: inline-block;
@@ -37,11 +37,16 @@
     justify-content: center;
     overflow: hidden;
     cursor: pointer;
-    opacity: 0;
 }
 .movieRow--left {
     left: 0;
 }
 .movieRow--right {
     right: 0;
+}
+@media (max-width:760px) {
+    .movieRow--left,
+    .movieRow--right {
+        opacity: 1;
+    }
 }
